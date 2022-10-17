@@ -1,0 +1,22 @@
+body {
+    min-height: 100vh;
+    background-color: black;
+}
+
+#page {
+    height: 100%;
+}
+
+#jumbotron {
+    position: absolute;
+    bottom: 50%;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    color: orange;
+    text-align: center;
+    font-size: 4em;
+}
