@@ -1,6 +1,7 @@
-body {
-    min-height: 100vh;
+html,body {
     background-color: black;
+
+    overflow: hidden;
 }
 
 #page {
@@ -8,11 +9,12 @@ body {
 }
 
 #jumbotron {
-    position: absolute;
-    bottom: 50%;
-    top: 50%;
-    width: 100%;
-    text-align: center;
+  margin: 0;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 h1 {
